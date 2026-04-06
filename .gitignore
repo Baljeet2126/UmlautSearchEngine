@@ -1,0 +1,65 @@
+## Visual Studio + .NET Core/Onion Architecture.gitignore
+
+# Visual Studio
+.vs/
+!.vs/config/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+
+# Build results
+[Dd]ebug/
+[Dd]elease/
+[Bb]in/
+[Oo]bj/
+build/
+
+# SQLite databases (keep if you want to version schema)
+*.db
+!jobs.db  # Uncomment to track your SQLite file
+
+# NuGet
+packages/
+*.nupkg
+
+# User settings
+*.userprefs
+
+# Logs
+logs/
+*.log
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+
+# Testing
+TestResults/
+coverage/
+
+# Environment variables
+.env
+
+# JetBrains Rider
+.idea/
+
+# ReSharper
+_ReSharper*/
+*.rsuser
+
+# NCrunch
+_NCrunch_*/
+.*crunch*.local.xml
+
+# Windows
+Desktop.ini
+
+# Project-specific
+jobs.db-wal
+jobs.db-shm

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmlautSearchEngine.Domain", "UmlautSearchEngine.Domain\UmlautSearchEngine.Domain.csproj", "{4BB96BC4-BA6E-4F77-9596-3EC5AC069F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmlautSearchEngine.Application", "UmlautSearchEngine.Application\UmlautSearchEngine.Application.csproj", "{8554F16E-10EF-4524-8CAE-57DFBA9D4091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmlautSearchEngine.Infrastructure", "UmlautSearchEngine.Infrastructure\UmlautSearchEngine.Infrastructure.csproj", "{1E5BCF6E-F583-4B1A-88C3-81D766DE64FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmlautSearch.ConsoleApp", "UmlautSearch.ConsoleApp\UmlautSearch.ConsoleApp.csproj", "{B38DEE68-5F7F-406A-8748-D48C2387645F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmlautSearchEngine.Tests", "UmlautSearchEngine.Tests\UmlautSearchEngine.Tests.csproj", "{80681D4C-155E-440E-871D-239777BA4467}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BB96BC4-BA6E-4F77-9596-3EC5AC069F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB96BC4-BA6E-4F77-9596-3EC5AC069F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB96BC4-BA6E-4F77-9596-3EC5AC069F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB96BC4-BA6E-4F77-9596-3EC5AC069F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8554F16E-10EF-4524-8CAE-57DFBA9D4091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8554F16E-10EF-4524-8CAE-57DFBA9D4091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8554F16E-10EF-4524-8CAE-57DFBA9D4091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8554F16E-10EF-4524-8CAE-57DFBA9D4091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5BCF6E-F583-4B1A-88C3-81D766DE64FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5BCF6E-F583-4B1A-88C3-81D766DE64FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5BCF6E-F583-4B1A-88C3-81D766DE64FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5BCF6E-F583-4B1A-88C3-81D766DE64FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38DEE68-5F7F-406A-8748-D48C2387645F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38DEE68-5F7F-406A-8748-D48C2387645F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38DEE68-5F7F-406A-8748-D48C2387645F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38DEE68-5F7F-406A-8748-D48C2387645F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80681D4C-155E-440E-871D-239777BA4467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80681D4C-155E-440E-871D-239777BA4467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80681D4C-155E-440E-871D-239777BA4467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80681D4C-155E-440E-871D-239777BA4467}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {183ED931-9138-4390-9913-538670B6F889}
+	EndGlobalSection
+EndGlobal
